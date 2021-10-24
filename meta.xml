@@ -7,7 +7,6 @@
 <include expiration='3d' path='*.jpg'/>
 <include expiration='3d' path='*.png'/>
 
-<meta content='sat, 10 jul 2021 00:00:00 GMT' http-equiv='expires'/>
 <meta charset='utf-8'/>
 <meta content='width=device-width, initial-scale=1, user-scalable=no' name='viewport'/>
 <meta content='blogger' name='generator'/>
@@ -90,7 +89,7 @@
 	<b:if cond='data:blog.metaDescription'>
 		<meta expr:content='data:blog.metaDescription' property='og:description'/>
 	<b:else/>
-		<meta expr:content='&quot;Silakan kunjungi &quot; + data:blog.pageTitle + &quot; Untuk membaca postingan menarik Arlina Code.&quot;' property='og:description'/>
+		<meta expr:content='&quot;Silakan kunjungi &quot; + data:blog.pageTitle + &quot; Untuk membaca postingan menarik dariku.&quot;' property='og:description'/>
 	</b:if>
 
 </b:if>
