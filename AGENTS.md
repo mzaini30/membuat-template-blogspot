@@ -22,3 +22,4 @@ MENGOLAH TEMPLATE BLOGSPOT
 - File Aturan/meta.xml itu tentang struktur Meta di <head/> pada template Blogspot
 - File Aturan/template.html adalah contoh bentuk template Blogspot
 - DILARANG menggunakan entitas HTML bernama seperti &copy;, &nbsp;, dll. Parser XML Blogger (SAX parser) akan error 'entity not declared'. Selalu gunakan kode numerik seperti &#169;, &#160;, atau &amp;copy;
+- WAJIB sertakan <b:widget-settings> dengan <b:widget-setting name='content'>nilai awal...</b:widget-setting> (serta text-0/link-0 untuk LinkList) pada setiap widget. Tanpa ini, form edit di Tata Letak (Layout Editor) Blogger akan tampil kosong saat diklik pengguna.
