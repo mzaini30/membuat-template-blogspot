@@ -21,3 +21,4 @@ MENGOLAH TEMPLATE BLOGSPOT
 - Folder Aturan/contoh/ berisi dua file template Blogspot yang banyak orang-orang gunakan dan recommended
 - File Aturan/meta.xml itu tentang struktur Meta di <head/> pada template Blogspot
 - File Aturan/template.html adalah contoh bentuk template Blogspot
+- DILARANG menggunakan entitas HTML bernama seperti &copy;, &nbsp;, dll. Parser XML Blogger (SAX parser) akan error 'entity not declared'. Selalu gunakan kode numerik seperti &#169;, &#160;, atau &amp;copy;
