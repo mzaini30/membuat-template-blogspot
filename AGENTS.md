@@ -7,6 +7,10 @@ SKILLS
 - Selalu gunakan skill caveman
 - Selalu cek skill apa yang cocok dan otomatis install dengan: skills add [nama skillnya] -y
 
+TAMPILAN
+
+- Jika ada file DESIGN.md, maka aturan desain mengikuti file tersebut
+
 MENGOLAH TEMPLATE BLOGSPOT
 
 - Jangan membuat gambar (GenerateImage) di folder ini karena nanti pasti nggak tampil. Kan yang akan disalin ke Blogspot itu hanya satu file Template.xml. Maka, gambar di local pasti nggak akan masuk. Alternatifnya, kalau mau ada gambarnya, gunakan yang sudah ada di internet saja
